@@ -9,6 +9,8 @@ public class Person {
     private String firstName;
     private String lastName;
 
+    private String avatar;
+
     public String getFirstName() {
         return firstName;
     }
@@ -24,4 +26,13 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
 }
